@@ -45,7 +45,7 @@ header{
     font-size: 25px;
     color: #ffffff;
 }
-.menu .navbar ul li { 
+.menu .navbar ul li {  /*El hover es para que cuando pase el mause se cambie de color */
     position: relative;
     float: left;
 } 
@@ -57,7 +57,7 @@ header{
     display: block;
 
 }
-.menu .navbar ul li a:hover {
+.menu .navbar ul li a:hover { /*El hover es para que cuando pase el mause se cambie de color */
     color: #0eaef3;
 }
 #menu {
@@ -90,5 +90,57 @@ header{
 }
 
 .content p {
-    
+    margin-top: 25px;  /* */
+    color: #AAB1FF;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: rgba(170, 177, 255, 0.3);
+    border: 1px solid #aab1ff;
+    margin: 35px 10px 0px 0px;
+    padding: 15px 25px;
+    color: #aab1ff;
+    border-radius: 25px; /* Para redondear las esquinas */
+}   
+
+.btn-1:hover {
+    background-color: #ffffff;
+}
+
+.services {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.service {
+    padding: 25px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgba(135, 141, 214, 0.3);
+
+}
+
+.service img { /* Agarra todas las imagenes de los services y les cambia la pocision */
+    margin-top: -50px; 
+}
+
+.service h3{
+    font-size: 20px;
+    color: #0e0e0e;
+    margin-bottom: 10px;
+}
+
+.service p{
+    color: #2c2e47;
+    font-size: 16px; /* Tamano de la letra */
+}
+
+.porfolios {
+    padding: 80px 0px;
+    text-align: center; /* Alinea los textos donde quiera */
 }
