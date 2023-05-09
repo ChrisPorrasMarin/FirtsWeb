@@ -143,4 +143,58 @@ header{
 .porfolios {
     padding: 80px 0px;
     text-align: center; /* Alinea los textos donde quiera */
+    color: #0e0e0e;
+}
+
+.porfolios h2 {
+    font-size: 55px;
+}
+.porfolio{
+    display: flex;
+    align-items: center;
+}
+.porfolio img {
+    width: 350px; /* Tamanno de la imagen */
+}
+
+.porfolio-1 {
+    text-align: left;
+    margin-left: 100px;
+}
+.porfolio-1 h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+
+}
+.porfolio-1 p {
+    font-size:  18px;
+    color: #2c2e47;
+    margin-bottom: 25px;
+}
+
+.porfolio-2 {
+    text-align: left;
+    margin-right: 100px;
+}
+.porfolio-2 h3{
+    font-size:  35px;
+    margin-bottom: 15px;
+}
+.porfolio-2 p {
+    font-size:  18px;
+    color: #2c2e47;
+    margin-bottom: 25px;
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: #704285;
+    color: #ffffff;
+
+}
+
+.btn-2:hover {
+    background-color: #8473c3;
 }
