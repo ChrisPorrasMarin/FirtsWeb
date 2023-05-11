@@ -270,6 +270,8 @@ hr {
     color: #0eaef3;
 }
 
+
+
 @media (max-width: 991px){
 
     .menu {
@@ -391,4 +393,5 @@ hr {
     .enlace{
         flex-direction: column;
     }
+
 }
